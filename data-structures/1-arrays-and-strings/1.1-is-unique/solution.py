@@ -1,4 +1,4 @@
-def isUnique(str):
+def is_unique(str):
     chars = {}
 
     for char in str:
@@ -10,7 +10,7 @@ def isUnique(str):
     return True
 
 
-print(isUnique("abc"))  # True
-print(isUnique("aab"))  # False
-print(isUnique("Kevin Bacon"))  # False
-print(isUnique("Tenchi Muyo"))  # True
+print(is_unique("abc"))  # True
+print(is_unique("aab"))  # False
+print(is_unique("Kevin Bacon"))  # False
+print(is_unique("Tenchi Muyo"))  # True
